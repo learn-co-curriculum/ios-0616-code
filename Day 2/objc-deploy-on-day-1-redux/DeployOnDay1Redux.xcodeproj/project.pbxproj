@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25F408A41BE3FEA099B571F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FEBF89AA2BE1FFE21384F3E /* Images.xcassets */; };
+		68380356CD480AFF70799AD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5936C5865AD9938BBCA935D /* Main.storyboard */; };
+		75549B336D725EF7601710CC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D55100A0B533155F355A44 /* libPods.a */; };
+		9D456CCAAB83A0B340D94CDC /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC1F5890B7B941DDD33357A /* libPods-unit_tests.a */; };
+		BD3B27AF1BB1991D0015D4B3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD3B27AE1BB1991D0015D4B3 /* LaunchScreen.xib */; };
+		BD3B27B21BB199B20015D4B3 /* FISBoardSpaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B27B11BB199B20015D4B3 /* FISBoardSpaceView.m */; };
+		BD3B27B51BB199EF0015D4B3 /* FISTicTacToeGame.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B27B41BB199EF0015D4B3 /* FISTicTacToeGame.m */; };
+		BD3B27BB1BB1A62A0015D4B3 /* FISHumanPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B27BA1BB1A62A0015D4B3 /* FISHumanPlayer.m */; };
+		BD3B27BE1BB1A7160015D4B3 /* FISComputerPlayer+Guts.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B27BD1BB1A7160015D4B3 /* FISComputerPlayer+Guts.m */; };
+		BD3B27C41BB1A7A70015D4B3 /* FISComputerPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B27C31BB1A7A70015D4B3 /* FISComputerPlayer.m */; };
+		BD3B27C71BB1C0E50015D4B3 /* FISTicTacToeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B27C61BB1C0E50015D4B3 /* FISTicTacToeViewController.m */; };
+		BD3B27CA1BB1E8070015D4B3 /* FISNewGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B27C91BB1E8070015D4B3 /* FISNewGameViewController.m */; };
+		BD3B27CE1BB1F4DF0015D4B3 /* FISGameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3B27CD1BB1F4DF0015D4B3 /* FISGameOverViewController.m */; };
+		D89B69CFD5673677B3ACDE3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0190575E4CC89C02E44E98F5 /* main.m */; };
+		E3D5C2F18256C5CBB451A3BF /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91ECC7FED6F09BC76F374BD4 /* FISAppDelegate.m */; };
+		F672084D3BD4072AC5FCD4E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB736C1BCFC331C9A0F4113 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1EE3D3149090CD81572F0BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB814028FE1DB4BCD621F41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75FA66CA8CE3EF92248DDA3E;
+			remoteInfo = DeployOnDay1Redux;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0190575E4CC89C02E44E98F5 /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14C628A20FFAC8526D5756CA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		1B3F032B69D2878ED0F14DA2 /* DeployOnDay1Redux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeployOnDay1Redux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DBBBF6B5FD226C12298A6D1 /* DeployOnDay1Redux-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeployOnDay1Redux-Prefix.pch"; sourceTree = "<group>"; };
+		1FEBF89AA2BE1FFE21384F3E /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		46D55100A0B533155F355A44 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB736C1BCFC331C9A0F4113 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8CC1F5890B7B941DDD33357A /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB5195B7EA4998FB59BB33A /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
+		91ECC7FED6F09BC76F374BD4 /* FISAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
+		9CA5C8E5C2878F8CD30C5DDE /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02C90EF6BF3767B29B84899 /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
+		BD3B27AE1BB1991D0015D4B3 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		BD3B27B01BB199B20015D4B3 /* FISBoardSpaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISBoardSpaceView.h; sourceTree = "<group>"; };
+		BD3B27B11BB199B20015D4B3 /* FISBoardSpaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISBoardSpaceView.m; sourceTree = "<group>"; };
+		BD3B27B31BB199EF0015D4B3 /* FISTicTacToeGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISTicTacToeGame.h; sourceTree = "<group>"; };
+		BD3B27B41BB199EF0015D4B3 /* FISTicTacToeGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISTicTacToeGame.m; sourceTree = "<group>"; };
+		BD3B27B61BB19D130015D4B3 /* FISTicTacToePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISTicTacToePlayer.h; sourceTree = "<group>"; };
+		BD3B27B91BB1A62A0015D4B3 /* FISHumanPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISHumanPlayer.h; sourceTree = "<group>"; };
+		BD3B27BA1BB1A62A0015D4B3 /* FISHumanPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISHumanPlayer.m; sourceTree = "<group>"; };
+		BD3B27BC1BB1A7160015D4B3 /* FISComputerPlayer+Guts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FISComputerPlayer+Guts.h"; sourceTree = "<group>"; };
+		BD3B27BD1BB1A7160015D4B3 /* FISComputerPlayer+Guts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FISComputerPlayer+Guts.m"; sourceTree = "<group>"; };
+		BD3B27C21BB1A7A70015D4B3 /* FISComputerPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISComputerPlayer.h; sourceTree = "<group>"; };
+		BD3B27C31BB1A7A70015D4B3 /* FISComputerPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISComputerPlayer.m; sourceTree = "<group>"; };
+		BD3B27C51BB1C0E50015D4B3 /* FISTicTacToeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISTicTacToeViewController.h; sourceTree = "<group>"; };
+		BD3B27C61BB1C0E50015D4B3 /* FISTicTacToeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISTicTacToeViewController.m; sourceTree = "<group>"; };
+		BD3B27C81BB1E8070015D4B3 /* FISNewGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISNewGameViewController.h; sourceTree = "<group>"; };
+		BD3B27C91BB1E8070015D4B3 /* FISNewGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISNewGameViewController.m; sourceTree = "<group>"; };
+		BD3B27CC1BB1F4DF0015D4B3 /* FISGameOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISGameOverViewController.h; sourceTree = "<group>"; };
+		BD3B27CD1BB1F4DF0015D4B3 /* FISGameOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISGameOverViewController.m; sourceTree = "<group>"; };
+		C5936C5865AD9938BBCA935D /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		CD0DF7515B4962BECFB21A95 /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
+		CE0CEBDB6A594A6AC55ECD5C /* DeployOnDay1Redux-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DeployOnDay1Redux-Info.plist"; sourceTree = "<group>"; };
+		D5FCE6F8427A229086054C7F /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE9DA9DF97BE26A90757A99D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E1F2773214780AE5DE525624 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7989A34230B00EB7B6FD8FE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F672084D3BD4072AC5FCD4E3 /* Foundation.framework in Frameworks */,
+				75549B336D725EF7601710CC /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83C630783639037E2B35651A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D456CCAAB83A0B340D94CDC /* libPods-unit_tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10BFABA4610E55E93E9D06B0 /* Other-Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CE0CEBDB6A594A6AC55ECD5C /* DeployOnDay1Redux-Info.plist */,
+				1DBBBF6B5FD226C12298A6D1 /* DeployOnDay1Redux-Prefix.pch */,
+				0190575E4CC89C02E44E98F5 /* main.m */,
+			);
+			name = "Other-Sources";
+			path = "Resources/Other-Sources";
+			sourceTree = "<group>";
+		};
+		4C147FBFDA4BC5007C5794C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EB5195B7EA4998FB59BB33A /* Pods-unit_tests.release.xcconfig */,
+				D5FCE6F8427A229086054C7F /* Pods-unit_tests.debug.xcconfig */,
+				DE9DA9DF97BE26A90757A99D /* Pods.release.xcconfig */,
+				14C628A20FFAC8526D5756CA /* Pods.debug.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		58A232238A6D522A3617B57E /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		61CDC02F7227AA087AF6A94B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD3B27AE1BB1991D0015D4B3 /* LaunchScreen.xib */,
+				1FEBF89AA2BE1FFE21384F3E /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		693F7ADBBD8F8828C8AFC797 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B3F032B69D2878ED0F14DA2 /* DeployOnDay1Redux.app */,
+				9CA5C8E5C2878F8CD30C5DDE /* UnitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91F052D7DC1034BA446B3249 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7FB736C1BCFC331C9A0F4113 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B3F77EC5A0C7A1C795641EAB /* DeployOnDay1Redux */ = {
+			isa = PBXGroup;
+			children = (
+				BD3B27B31BB199EF0015D4B3 /* FISTicTacToeGame.h */,
+				BD3B27B41BB199EF0015D4B3 /* FISTicTacToeGame.m */,
+				BD3B27C21BB1A7A70015D4B3 /* FISComputerPlayer.h */,
+				BD3B27C31BB1A7A70015D4B3 /* FISComputerPlayer.m */,
+				BD3B27CB1BB1EEFB0015D4B3 /* Guts */,
+				BD3B27AC1BB198580015D4B3 /* UI */,
+				61CDC02F7227AA087AF6A94B /* Resources */,
+				BD3B27AD1BB198B00015D4B3 /* Supporting Files */,
+			);
+			path = DeployOnDay1Redux;
+			sourceTree = "<group>";
+		};
+		BD3B27AC1BB198580015D4B3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C5936C5865AD9938BBCA935D /* Main.storyboard */,
+				BD3B27B01BB199B20015D4B3 /* FISBoardSpaceView.h */,
+				BD3B27B11BB199B20015D4B3 /* FISBoardSpaceView.m */,
+				BD3B27C51BB1C0E50015D4B3 /* FISTicTacToeViewController.h */,
+				BD3B27C61BB1C0E50015D4B3 /* FISTicTacToeViewController.m */,
+				BD3B27C81BB1E8070015D4B3 /* FISNewGameViewController.h */,
+				BD3B27C91BB1E8070015D4B3 /* FISNewGameViewController.m */,
+				BD3B27CC1BB1F4DF0015D4B3 /* FISGameOverViewController.h */,
+				BD3B27CD1BB1F4DF0015D4B3 /* FISGameOverViewController.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		BD3B27AD1BB198B00015D4B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10BFABA4610E55E93E9D06B0 /* Other-Sources */,
+				A02C90EF6BF3767B29B84899 /* FISAppDelegate.h */,
+				91ECC7FED6F09BC76F374BD4 /* FISAppDelegate.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD3B27CB1BB1EEFB0015D4B3 /* Guts */ = {
+			isa = PBXGroup;
+			children = (
+				BD3B27B61BB19D130015D4B3 /* FISTicTacToePlayer.h */,
+				BD3B27B91BB1A62A0015D4B3 /* FISHumanPlayer.h */,
+				BD3B27BA1BB1A62A0015D4B3 /* FISHumanPlayer.m */,
+				BD3B27BC1BB1A7160015D4B3 /* FISComputerPlayer+Guts.h */,
+				BD3B27BD1BB1A7160015D4B3 /* FISComputerPlayer+Guts.m */,
+			);
+			name = Guts;
+			sourceTree = "<group>";
+		};
+		C08398047FF05FC4FEA76B5D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1F2773214780AE5DE525624 /* UnitTests-Info.plist */,
+				CD0DF7515B4962BECFB21A95 /* UnitTests-Prefix.pch */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DE1847DA4EB2A875FF3DE6DF = {
+			isa = PBXGroup;
+			children = (
+				B3F77EC5A0C7A1C795641EAB /* DeployOnDay1Redux */,
+				E110BD2D7D499D87BE33181D /* UnitTests */,
+				FBAEC7B4C4CF596F0CBC094E /* Frameworks */,
+				693F7ADBBD8F8828C8AFC797 /* Products */,
+				4C147FBFDA4BC5007C5794C4 /* Pods */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
+		};
+		E110BD2D7D499D87BE33181D /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				C08398047FF05FC4FEA76B5D /* Resources */,
+				58A232238A6D522A3617B57E /* Tests */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		FBAEC7B4C4CF596F0CBC094E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91F052D7DC1034BA446B3249 /* iOS */,
+				8CC1F5890B7B941DDD33357A /* libPods-unit_tests.a */,
+				46D55100A0B533155F355A44 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36AB56EBEA797C7DB2E2B50D /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09A363C5ECA89C487B40B9C6 /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				5226169B59358FB9193B415B /* Check Pods Manifest.lock */,
+				DF363F1416802CD720D8F603 /* Sources */,
+				83C630783639037E2B35651A /* Frameworks */,
+				31FCBA5A14B3BDE038442EA7 /* Resources */,
+				2373E33ADA0B0798CE2551CB /* Embed Pods Frameworks */,
+				66FB8C9AD95613704E5B891F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FC495A0D587F12BAE1A670E /* PBXTargetDependency */,
+			);
+			name = UnitTests;
+			productName = UnitTests;
+			productReference = 9CA5C8E5C2878F8CD30C5DDE /* UnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75FA66CA8CE3EF92248DDA3E /* DeployOnDay1Redux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF9FFA7D688206BD2C9B202B /* Build configuration list for PBXNativeTarget "DeployOnDay1Redux" */;
+			buildPhases = (
+				B7EC6C8969D159CAA4F68156 /* Check Pods Manifest.lock */,
+				109363171800E1D0BE2A928E /* Sources */,
+				7989A34230B00EB7B6FD8FE0 /* Frameworks */,
+				59529C66AAB395B4B213D0D7 /* Resources */,
+				34BF2EBF944F281F899AF361 /* Embed Pods Frameworks */,
+				92F8723CFCA3D889797BA739 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeployOnDay1Redux;
+			productName = DeployOnDay1Redux;
+			productReference = 1B3F032B69D2878ED0F14DA2 /* DeployOnDay1Redux.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEB814028FE1DB4BCD621F41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FIS;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "The Flatiron School";
+			};
+			buildConfigurationList = 8A7F02CB497E29AD95352C9E /* Build configuration list for PBXProject "DeployOnDay1Redux" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE1847DA4EB2A875FF3DE6DF;
+			productRefGroup = 693F7ADBBD8F8828C8AFC797 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75FA66CA8CE3EF92248DDA3E /* DeployOnDay1Redux */,
+				36AB56EBEA797C7DB2E2B50D /* UnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31FCBA5A14B3BDE038442EA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59529C66AAB395B4B213D0D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F408A41BE3FEA099B571F8 /* Images.xcassets in Resources */,
+				BD3B27AF1BB1991D0015D4B3 /* LaunchScreen.xib in Resources */,
+				68380356CD480AFF70799AD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2373E33ADA0B0798CE2551CB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34BF2EBF944F281F899AF361 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5226169B59358FB9193B415B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		66FB8C9AD95613704E5B891F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92F8723CFCA3D889797BA739 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7EC6C8969D159CAA4F68156 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		109363171800E1D0BE2A928E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3B27C71BB1C0E50015D4B3 /* FISTicTacToeViewController.m in Sources */,
+				BD3B27B21BB199B20015D4B3 /* FISBoardSpaceView.m in Sources */,
+				BD3B27C41BB1A7A70015D4B3 /* FISComputerPlayer.m in Sources */,
+				BD3B27B51BB199EF0015D4B3 /* FISTicTacToeGame.m in Sources */,
+				BD3B27BE1BB1A7160015D4B3 /* FISComputerPlayer+Guts.m in Sources */,
+				BD3B27CE1BB1F4DF0015D4B3 /* FISGameOverViewController.m in Sources */,
+				BD3B27CA1BB1E8070015D4B3 /* FISNewGameViewController.m in Sources */,
+				E3D5C2F18256C5CBB451A3BF /* FISAppDelegate.m in Sources */,
+				D89B69CFD5673677B3ACDE3C /* main.m in Sources */,
+				BD3B27BB1BB1A62A0015D4B3 /* FISHumanPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF363F1416802CD720D8F603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FC495A0D587F12BAE1A670E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75FA66CA8CE3EF92248DDA3E /* DeployOnDay1Redux */;
+			targetProxy = F1EE3D3149090CD81572F0BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E3F223020676A3A09DCF650 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9DA9DF97BE26A90757A99D /* Pods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeployOnDay1Redux/Resources/Other-Sources/DeployOnDay1Redux-Prefix.pch";
+				INFOPLIST_FILE = "DeployOnDay1Redux/Resources/Other-Sources/DeployOnDay1Redux-Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2998D126D820ECFC621D5AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3286206C99D1FAEB74FF23A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A77717D30619900CB42144D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EB5195B7EA4998FB59BB33A /* Pods-unit_tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DeployOnDay1Redux.app/DeployOnDay1Redux";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PREFIX_HEADER = "UnitTests/Resources/UnitTests-Prefix.pch";
+				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		4FDC5A4056142E03A2C965A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5FCE6F8427A229086054C7F /* Pods-unit_tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DeployOnDay1Redux.app/DeployOnDay1Redux";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PREFIX_HEADER = "UnitTests/Resources/UnitTests-Prefix.pch";
+				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DA90CCF8F7D31C30F89C2995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14C628A20FFAC8526D5756CA /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DeployOnDay1Redux/Resources/Other-Sources/DeployOnDay1Redux-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "DeployOnDay1Redux/Resources/Other-Sources/DeployOnDay1Redux-Info.plist";
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09A363C5ECA89C487B40B9C6 /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A77717D30619900CB42144D /* Release */,
+				4FDC5A4056142E03A2C965A7 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A7F02CB497E29AD95352C9E /* Build configuration list for PBXProject "DeployOnDay1Redux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2998D126D820ECFC621D5AEA /* Debug */,
+				3286206C99D1FAEB74FF23A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF9FFA7D688206BD2C9B202B /* Build configuration list for PBXNativeTarget "DeployOnDay1Redux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E3F223020676A3A09DCF650 /* Release */,
+				DA90CCF8F7D31C30F89C2995 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEB814028FE1DB4BCD621F41 /* Project object */;
+}

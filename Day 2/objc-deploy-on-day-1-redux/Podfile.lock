@@ -1,0 +1,21 @@
+PODS:
+  - Expecta (1.0.3)
+  - FontAwesomeKit/Core (2.2.0)
+  - FontAwesomeKit/IonIcons (2.2.0):
+    - FontAwesomeKit/Core
+  - Masonry (0.6.2)
+  - Specta (1.0.4)
+
+DEPENDENCIES:
+  - Expecta (~> 1.0)
+  - FontAwesomeKit/IonIcons
+  - Masonry
+  - Specta (~> 1.0)
+
+SPEC CHECKSUMS:
+  Expecta: 9d1bff6c8b0eeee73a166a2ee898892478927a15
+  FontAwesomeKit: 025fd4dd1017fe4e3f8d47b03e024deedbb33cd4
+  Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
+  Specta: 69bb134672aae190a1379ff91df07dad8dd1f869
+
+COCOAPODS: 0.39.0.beta.4
