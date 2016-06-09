@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "Feed.h"
+#import "User.h"
 
 @interface AppDelegate ()
 
@@ -19,39 +20,53 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 
-    NSMutableArray *teachers = [[NSMutableArray alloc] init];
-    [teachers addObject:@"Joe"];
-
-    NSMutableArray *array = [[NSMutableArray alloc] init];
-
-  //  NSLog(@"%@",array[0]);
-
-    NSString *joesNAme = @"Joe";
-    NSString *susansName = [[NSString alloc] init];
-
-    NSLog(@"%@",susansName);
-
-    Feed *billybob = [[Feed alloc] init];
-
-    billybob.posts = @[@"Today was my first day at school", @"Today was my second day at school. It was great", @"Today was my third day, Joe is amazing"];
-
-    Feed *joesFeed = [[Feed alloc] init];
-    joesFeed.posts = @[@"I'm Hungry", @"I'm Thirsty"];
-
-    NSString *joesLongestPost = [joesFeed longestPost];
-    NSLog(@"Joes Longest Post is: %@",joesLongestPost);
+//    NSMutableArray *teachers = [[NSMutableArray alloc] init];
+//    [teachers addObject:@"Joe"];
+//
+//    NSMutableArray *array = [[NSMutableArray alloc] init];
+//
+//  //  NSLog(@"%@",array[0]);
+//
+//    NSString *joesNAme = @"Joe";
+//    NSString *susansName = [[NSString alloc] init];
+//
+//    NSLog(@"%@",susansName);
+//
+//    Feed *billybob = [[Feed alloc] init];
+//
+//    billybob.posts = @[@"Today was my first day at school", @"Today was my second day at school. It was great", @"Today was my third day, Joe is amazing"];
+//
+//    Feed *joesFeed = [[Feed alloc] init];
+//    joesFeed.posts = @[@"I'm Hungry", @"I'm Thirsty"];
+//
+//    NSString *joesLongestPost = [joesFeed longestPost];
+//    NSLog(@"Joes Longest Post is: %@",joesLongestPost);
 
     
 
    // [feed displayBlogPosts:@[@"Today was my first day at school", @"Today was my second day at school. It was great", @"Today was my third day, Joe is amazing"]];
 
-    NSString *longestPost = [billybob longestPost];
+//    NSString *longestPost = [billybob longestPost];
+//
+//
+//    Feed *newFeed = [[Feed alloc] init];
+//    [newFeed greetUser];
+//    NSLog(@"%@",longestPost);
 
 
-    Feed *newFeed = [[Feed alloc] init];
-    [newFeed greetUser];
-    NSLog(@"%@",longestPost);
 
+    User *newUser = [[User alloc] init];
+    NSString *userName = @"Lloyd";
+    newUser.firstName = userName;
+
+    [newUser walkForwardTenTimes];
+
+    [User feedAll];
+
+    newUser.height = @234;
+    NSLog(@"%@",newUser.height);
+
+    
 
 
     
