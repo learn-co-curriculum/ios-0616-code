@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6A5BFE321909567C5FC975C58F425D4F1EF77AFA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6A5BFE321909567C5FC975C58F425D4F1EF77AFA" : 0,
+    "3E897ED9F821AA46FD50889CB6988ADC2EB478C8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B7842BF1-0E4D-4525-BB74-B8B16D298C12",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6A5BFE321909567C5FC975C58F425D4F1EF77AFA" : "iOShopping-Cart\/",
+    "3E897ED9F821AA46FD50889CB6988ADC2EB478C8" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "iOShoppingCart",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iOShoppingCart.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:learn-co-curriculum\/ios-0616-old.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3E897ED9F821AA46FD50889CB6988ADC2EB478C8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:learn-co-curriculum\/iOShopping-Cart.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6A5BFE321909567C5FC975C58F425D4F1EF77AFA"
+    }
+  ]
+}

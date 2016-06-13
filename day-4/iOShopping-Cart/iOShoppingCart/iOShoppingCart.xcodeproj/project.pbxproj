@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D20EE1FB7134839A8C671A3 /* libPods-iOShoppingCartTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDFDDB4CF8047378A467E83 /* libPods-iOShoppingCartTests.a */; };
+		725C3280191BEA500050AE4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725C327F191BEA500050AE4C /* Foundation.framework */; };
+		725C3282191BEA500050AE4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725C3281191BEA500050AE4C /* CoreGraphics.framework */; };
+		725C3284191BEA500050AE4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725C3283191BEA500050AE4C /* UIKit.framework */; };
+		725C328A191BEA500050AE4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 725C3288191BEA500050AE4C /* InfoPlist.strings */; };
+		725C328C191BEA500050AE4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 725C328B191BEA500050AE4C /* main.m */; };
+		725C3290191BEA500050AE4C /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 725C328F191BEA500050AE4C /* FISAppDelegate.m */; };
+		725C3292191BEA500050AE4C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725C3291191BEA500050AE4C /* Images.xcassets */; };
+		725C3299191BEA500050AE4C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725C3298191BEA500050AE4C /* XCTest.framework */; };
+		725C329A191BEA500050AE4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725C327F191BEA500050AE4C /* Foundation.framework */; };
+		725C329B191BEA500050AE4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725C3283191BEA500050AE4C /* UIKit.framework */; };
+		725C32A3191BEA500050AE4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 725C32A1191BEA500050AE4C /* InfoPlist.strings */; };
+		725C32AF191BEF320050AE4C /* FISCartSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 725C32AE191BEF320050AE4C /* FISCartSpec.m */; };
+		725C32B2191BF0BE0050AE4C /* FISCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 725C32B1191BF0BE0050AE4C /* FISCart.m */; };
+		72C066A0191BF35A0006CD50 /* FISItemSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C0669F191BF35A0006CD50 /* FISItemSpec.m */; };
+		72C066A3191BF3860006CD50 /* FISItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C066A2191BF3860006CD50 /* FISItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		725C329C191BEA500050AE4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 725C3274191BEA500050AE4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 725C327B191BEA500050AE4C;
+			remoteInfo = iOShoppingCart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		725C327C191BEA500050AE4C /* iOShoppingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOShoppingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		725C327F191BEA500050AE4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		725C3281191BEA500050AE4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		725C3283191BEA500050AE4C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		725C3287191BEA500050AE4C /* iOShoppingCart-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOShoppingCart-Info.plist"; sourceTree = "<group>"; };
+		725C3289191BEA500050AE4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		725C328B191BEA500050AE4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		725C328D191BEA500050AE4C /* iOShoppingCart-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOShoppingCart-Prefix.pch"; sourceTree = "<group>"; };
+		725C328E191BEA500050AE4C /* FISAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
+		725C328F191BEA500050AE4C /* FISAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
+		725C3291191BEA500050AE4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		725C3297191BEA500050AE4C /* iOShoppingCartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOShoppingCartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		725C3298191BEA500050AE4C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		725C32A0191BEA500050AE4C /* iOShoppingCartTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOShoppingCartTests-Info.plist"; sourceTree = "<group>"; };
+		725C32A2191BEA500050AE4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		725C32AE191BEF320050AE4C /* FISCartSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCartSpec.m; sourceTree = "<group>"; };
+		725C32B0191BF0BE0050AE4C /* FISCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISCart.h; sourceTree = "<group>"; };
+		725C32B1191BF0BE0050AE4C /* FISCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCart.m; sourceTree = "<group>"; };
+		72C0669F191BF35A0006CD50 /* FISItemSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISItemSpec.m; sourceTree = "<group>"; };
+		72C066A1191BF3860006CD50 /* FISItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISItem.h; sourceTree = "<group>"; };
+		72C066A2191BF3860006CD50 /* FISItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISItem.m; sourceTree = "<group>"; };
+		736F4F84EA9E4496903BFFAA /* Pods-iOShoppingCartTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOShoppingCartTests.xcconfig"; path = "Pods/Pods-iOShoppingCartTests.xcconfig"; sourceTree = "<group>"; };
+		CFDFDDB4CF8047378A467E83 /* libPods-iOShoppingCartTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOShoppingCartTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		725C3279191BEA500050AE4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725C3282191BEA500050AE4C /* CoreGraphics.framework in Frameworks */,
+				725C3284191BEA500050AE4C /* UIKit.framework in Frameworks */,
+				725C3280191BEA500050AE4C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725C3294191BEA500050AE4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725C3299191BEA500050AE4C /* XCTest.framework in Frameworks */,
+				725C329B191BEA500050AE4C /* UIKit.framework in Frameworks */,
+				725C329A191BEA500050AE4C /* Foundation.framework in Frameworks */,
+				6D20EE1FB7134839A8C671A3 /* libPods-iOShoppingCartTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		725C3273191BEA500050AE4C = {
+			isa = PBXGroup;
+			children = (
+				725C3285191BEA500050AE4C /* iOShoppingCart */,
+				725C329E191BEA500050AE4C /* iOShoppingCartTests */,
+				725C327E191BEA500050AE4C /* Frameworks */,
+				725C327D191BEA500050AE4C /* Products */,
+				736F4F84EA9E4496903BFFAA /* Pods-iOShoppingCartTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		725C327D191BEA500050AE4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				725C327C191BEA500050AE4C /* iOShoppingCart.app */,
+				725C3297191BEA500050AE4C /* iOShoppingCartTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		725C327E191BEA500050AE4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				725C327F191BEA500050AE4C /* Foundation.framework */,
+				725C3281191BEA500050AE4C /* CoreGraphics.framework */,
+				725C3283191BEA500050AE4C /* UIKit.framework */,
+				725C3298191BEA500050AE4C /* XCTest.framework */,
+				CFDFDDB4CF8047378A467E83 /* libPods-iOShoppingCartTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		725C3285191BEA500050AE4C /* iOShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				72C066A1191BF3860006CD50 /* FISItem.h */,
+				72C066A2191BF3860006CD50 /* FISItem.m */,
+				725C32B0191BF0BE0050AE4C /* FISCart.h */,
+				725C32B1191BF0BE0050AE4C /* FISCart.m */,
+				725C328E191BEA500050AE4C /* FISAppDelegate.h */,
+				725C328F191BEA500050AE4C /* FISAppDelegate.m */,
+				725C3291191BEA500050AE4C /* Images.xcassets */,
+				725C3286191BEA500050AE4C /* Supporting Files */,
+			);
+			path = iOShoppingCart;
+			sourceTree = "<group>";
+		};
+		725C3286191BEA500050AE4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				725C3287191BEA500050AE4C /* iOShoppingCart-Info.plist */,
+				725C3288191BEA500050AE4C /* InfoPlist.strings */,
+				725C328B191BEA500050AE4C /* main.m */,
+				725C328D191BEA500050AE4C /* iOShoppingCart-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		725C329E191BEA500050AE4C /* iOShoppingCartTests */ = {
+			isa = PBXGroup;
+			children = (
+				72C0669F191BF35A0006CD50 /* FISItemSpec.m */,
+				725C32AE191BEF320050AE4C /* FISCartSpec.m */,
+				725C329F191BEA500050AE4C /* Supporting Files */,
+			);
+			path = iOShoppingCartTests;
+			sourceTree = "<group>";
+		};
+		725C329F191BEA500050AE4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				725C32A0191BEA500050AE4C /* iOShoppingCartTests-Info.plist */,
+				725C32A1191BEA500050AE4C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		725C327B191BEA500050AE4C /* iOShoppingCart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725C32A8191BEA500050AE4C /* Build configuration list for PBXNativeTarget "iOShoppingCart" */;
+			buildPhases = (
+				725C3278191BEA500050AE4C /* Sources */,
+				725C3279191BEA500050AE4C /* Frameworks */,
+				725C327A191BEA500050AE4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOShoppingCart;
+			productName = iOShoppingCart;
+			productReference = 725C327C191BEA500050AE4C /* iOShoppingCart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		725C3296191BEA500050AE4C /* iOShoppingCartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725C32AB191BEA500050AE4C /* Build configuration list for PBXNativeTarget "iOShoppingCartTests" */;
+			buildPhases = (
+				A6E33DCDE64D42E5AFE44EF6 /* Check Pods Manifest.lock */,
+				725C3293191BEA500050AE4C /* Sources */,
+				725C3294191BEA500050AE4C /* Frameworks */,
+				725C3295191BEA500050AE4C /* Resources */,
+				109F5884674342ABB940DDEC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				725C329D191BEA500050AE4C /* PBXTargetDependency */,
+			);
+			name = iOShoppingCartTests;
+			productName = iOShoppingCartTests;
+			productReference = 725C3297191BEA500050AE4C /* iOShoppingCartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		725C3274191BEA500050AE4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FIS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = FIS;
+				TargetAttributes = {
+					725C3296191BEA500050AE4C = {
+						TestTargetID = 725C327B191BEA500050AE4C;
+					};
+				};
+			};
+			buildConfigurationList = 725C3277191BEA500050AE4C /* Build configuration list for PBXProject "iOShoppingCart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 725C3273191BEA500050AE4C;
+			productRefGroup = 725C327D191BEA500050AE4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				725C327B191BEA500050AE4C /* iOShoppingCart */,
+				725C3296191BEA500050AE4C /* iOShoppingCartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		725C327A191BEA500050AE4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725C328A191BEA500050AE4C /* InfoPlist.strings in Resources */,
+				725C3292191BEA500050AE4C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725C3295191BEA500050AE4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725C32A3191BEA500050AE4C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		109F5884674342ABB940DDEC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-iOShoppingCartTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6E33DCDE64D42E5AFE44EF6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		725C3278191BEA500050AE4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725C328C191BEA500050AE4C /* main.m in Sources */,
+				72C066A3191BF3860006CD50 /* FISItem.m in Sources */,
+				725C3290191BEA500050AE4C /* FISAppDelegate.m in Sources */,
+				725C32B2191BF0BE0050AE4C /* FISCart.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725C3293191BEA500050AE4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C066A0191BF35A0006CD50 /* FISItemSpec.m in Sources */,
+				725C32AF191BEF320050AE4C /* FISCartSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		725C329D191BEA500050AE4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 725C327B191BEA500050AE4C /* iOShoppingCart */;
+			targetProxy = 725C329C191BEA500050AE4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		725C3288191BEA500050AE4C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				725C3289191BEA500050AE4C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		725C32A1191BEA500050AE4C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				725C32A2191BEA500050AE4C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		725C32A6191BEA500050AE4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		725C32A7191BEA500050AE4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		725C32A9191BEA500050AE4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOShoppingCart/iOShoppingCart-Prefix.pch";
+				INFOPLIST_FILE = "iOShoppingCart/iOShoppingCart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		725C32AA191BEA500050AE4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOShoppingCart/iOShoppingCart-Prefix.pch";
+				INFOPLIST_FILE = "iOShoppingCart/iOShoppingCart-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		725C32AC191BEA500050AE4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 736F4F84EA9E4496903BFFAA /* Pods-iOShoppingCartTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOShoppingCart.app/iOShoppingCart";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOShoppingCart/iOShoppingCart-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOShoppingCartTests/iOShoppingCartTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		725C32AD191BEA500050AE4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 736F4F84EA9E4496903BFFAA /* Pods-iOShoppingCartTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOShoppingCart.app/iOShoppingCart";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOShoppingCart/iOShoppingCart-Prefix.pch";
+				INFOPLIST_FILE = "iOShoppingCartTests/iOShoppingCartTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		725C3277191BEA500050AE4C /* Build configuration list for PBXProject "iOShoppingCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725C32A6191BEA500050AE4C /* Debug */,
+				725C32A7191BEA500050AE4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		725C32A8191BEA500050AE4C /* Build configuration list for PBXNativeTarget "iOShoppingCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725C32A9191BEA500050AE4C /* Debug */,
+				725C32AA191BEA500050AE4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		725C32AB191BEA500050AE4C /* Build configuration list for PBXNativeTarget "iOShoppingCartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725C32AC191BEA500050AE4C /* Debug */,
+				725C32AD191BEA500050AE4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 725C3274191BEA500050AE4C /* Project object */;
+}
