@@ -1,0 +1,10 @@
+language: objective-c
+
+before_install:
+  - brew update
+  - brew upgrade xctool
+  
+notifications:
+  webhooks: http://progress.flatironschool.com/submissions
+
+script: xctool -reporter json-stream -workspace OO-Vehicle/OO-Vehicle.xcworkspace -sdk iphonesimulator -scheme OO-Vehicle build test
