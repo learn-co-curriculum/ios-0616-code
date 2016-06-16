@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5Nb-VI-X55">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Card Switcher View Controller-->
+        <scene sceneID="x4R-Zw-OPf">
+            <objects>
+                <viewController id="5Nb-VI-X55" customClass="FISCardSwitcherViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NcI-pD-2JL"/>
+                        <viewControllerLayoutGuide type="bottom" id="oJn-FK-0w2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RVc-yB-jf9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yih-JW-Pcw">
+                                <rect key="frame" x="15" y="28" width="42" height="21"/>
+                                <accessibility key="accessibilityConfiguration" label="topLabel"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ggx-7X-gxH">
+                                <rect key="frame" x="313" y="538" width="42" height="21"/>
+                                <accessibility key="accessibilityConfiguration" label="bottomLabel"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOf-6h-dxe">
+                                <rect key="frame" x="28" y="617" width="30" height="30"/>
+                                <state key="normal" title="♠️3"/>
+                                <connections>
+                                    <action selector="threeOfSpadesTapped:" destination="5Nb-VI-X55" eventType="touchUpInside" id="OIJ-9k-ZXf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jyi-4Z-n4C">
+                                <rect key="frame" x="119" y="617" width="30" height="30"/>
+                                <state key="normal" title="♣️4"/>
+                                <connections>
+                                    <action selector="fourOfClubsTapped:" destination="5Nb-VI-X55" eventType="touchUpInside" id="y73-2I-Qd6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rVr-0W-Shm">
+                                <rect key="frame" x="236" y="617" width="30" height="30"/>
+                                <state key="normal" title="♦️8"/>
+                                <connections>
+                                    <action selector="eightOfDiamondsTapped:" destination="5Nb-VI-X55" eventType="touchUpInside" id="JVl-ev-lm0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z1i-EY-N14">
+                                <rect key="frame" x="314" y="617" width="36" height="30"/>
+                                <state key="normal" title="♥️10"/>
+                                <connections>
+                                    <action selector="tenOfHeartsTapped:" destination="5Nb-VI-X55" eventType="touchUpInside" id="wWs-YI-kds"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5lG-32-7Gd">
+                                <rect key="frame" x="101" y="324" width="172" height="52"/>
+                                <accessibility key="accessibilityConfiguration" label="middleLabel"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="bottomRightLabel" destination="Ggx-7X-gxH" id="Cjz-4a-UU8"/>
+                        <outlet property="middleLabel" destination="5lG-32-7Gd" id="Maa-8X-T1c"/>
+                        <outlet property="topLeftLabel" destination="yih-JW-Pcw" id="S7O-UX-vim"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kua-Xw-qOx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="242.5" y="34.5"/>
+        </scene>
+    </scenes>
+</document>
