@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8CB46EAD549AED5B1973BCB5C7D44AAE605F1A91",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8CB46EAD549AED5B1973BCB5C7D44AAE605F1A91" : 0,
+    "3E897ED9F821AA46FD50889CB6988ADC2EB478C8" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A1ED6623-DAFD-476A-B176-B4C854628E89",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8CB46EAD549AED5B1973BCB5C7D44AAE605F1A91" : "objc-BlackJackViews\/",
+    "3E897ED9F821AA46FD50889CB6988ADC2EB478C8" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "objc-BlackJackViews",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "objc-BlackJackViews.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:learn-co-curriculum\/ios-0616-old.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3E897ED9F821AA46FD50889CB6988ADC2EB478C8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:learn-co-curriculum\/objc-BlackJackViews.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8CB46EAD549AED5B1973BCB5C7D44AAE605F1A91"
+    }
+  ]
+}

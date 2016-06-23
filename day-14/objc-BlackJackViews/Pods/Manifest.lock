@@ -1,0 +1,29 @@
+PODS:
+  - Expecta (1.0.3)
+  - Expecta+Collections (1.0.1):
+    - Expecta
+  - KIF (3.3.0):
+    - KIF/Core (= 3.3.0)
+  - KIF/Core (3.3.0)
+  - KIFViewControllerActions (1.0.0):
+    - KIF (>= 2.0.0)
+  - Specta (1.0.4)
+  - Swizzlean (0.2.0)
+
+DEPENDENCIES:
+  - Expecta (~> 1.0)
+  - Expecta+Collections
+  - KIF (~> 3.0)
+  - KIFViewControllerActions
+  - Specta (~> 1.0)
+  - Swizzlean (~> 0.2)
+
+SPEC CHECKSUMS:
+  Expecta: 9d1bff6c8b0eeee73a166a2ee898892478927a15
+  Expecta+Collections: 6fae193f42cb98dab08fe6a1ef579e97c65aa56a
+  KIF: 0a82046d06f3648799cac522d2d0f7934214caac
+  KIFViewControllerActions: 73085acd975ebbfc954f7895ca1aaa9faa36b3c6
+  Specta: 69bb134672aae190a1379ff91df07dad8dd1f869
+  Swizzlean: 6ef3e5a33063b7cd99dc39f8c55164dc55d9a021
+
+COCOAPODS: 0.38.2

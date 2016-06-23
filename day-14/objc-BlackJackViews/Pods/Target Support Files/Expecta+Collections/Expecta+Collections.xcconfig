@@ -1,0 +1,2 @@
+EXPECTA_COLLECTIONS_FRAMEWORK_SEARCH_PATHS = $(inherited) "$(SDKROOT)/Developer/Library/Frameworks" "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+EXPECTA_COLLECTIONS_OTHER_LDFLAGS = -framework "Foundation" -framework "XCTest"
