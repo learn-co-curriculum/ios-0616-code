@@ -10,13 +10,19 @@
 
 @interface JoesTableViewController ()
 
+@property (strong, nonatomic) NSMutableArray *students;
 @end
 
 @implementation JoesTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
+    self.students = [[NSMutableArray alloc] init];
+    [self.students addObject:@"Jenny"];
+    [self.students addObject:@"Zain"];
+    [self.students addObject:@"Salmaan"];
+    [self.students addObject:@"Max"];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -32,24 +38,30 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+    NSLog(@"number of sections called");
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+    NSLog(@"rows in section called");
+//    return self.students.count;
+    return 100;
+
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"basicCell" forIndexPath:indexPath];
+  //  NSString *student = self.students[indexPath.row];
+
+    NSLog(@"cellForRowAtIndexPath called %i, memory address: %@ ", indexPath.row,cell);
+    cell.textLabel.text = [NSString stringWithFormat:@"%i",indexPath.row];
     
     // Configure the cell...
     
     return cell;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.
