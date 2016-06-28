@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
@@ -29,47 +30,59 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="65" height="21"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="65" height="21"/>
+                                </variation>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0I8-fn-aCV">
-                                <rect key="frame" x="300" y="75" width="300" height="150"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XP5-T8-Jlp">
+                                <rect key="frame" x="20" y="98" width="600" height="120"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HvW-jo-7hx">
-                                        <rect key="frame" x="0.0" y="60" width="300" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a5L-hS-OfN">
-                                        <rect key="frame" x="131" y="110" width="38" height="30"/>
-                                        <state key="normal" title="Login"/>
-                                        <connections>
-                                            <action selector="loginTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V6s-Oi-uOv"/>
-                                        </connections>
-                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="icon175x175.png" translatesAutoresizingMaskIntoConstraints="NO" id="TxS-Df-aot">
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="210" id="A8M-M7-JPd"/>
+                                            <constraint firstAttribute="width" secondItem="TxS-Df-aot" secondAttribute="height" multiplier="1:1" id="KU7-cU-Yqd"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" distribution="fillEqually" alignment="top" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="a1D-dt-5GO">
+                                        <rect key="frame" x="120" y="0.0" width="480" height="120"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="MeetFactory" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KAN-CH-ahL">
+                                                <rect key="frame" x="0.0" y="0.0" width="97" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Music Venue" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a6M-7H-vHt">
+                                                <rect key="frame" x="0.0" y="46" width="98" height="29"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Open Soon" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YsI-Rc-tx7">
+                                                <rect key="frame" x="0.0" y="91" width="86" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="a5L-hS-OfN" firstAttribute="top" secondItem="HvW-jo-7hx" secondAttribute="bottom" constant="20" id="CHP-7m-xzx"/>
-                                    <constraint firstItem="HvW-jo-7hx" firstAttribute="centerX" secondItem="0I8-fn-aCV" secondAttribute="centerX" id="Wsu-Gr-jGd"/>
-                                    <constraint firstItem="a5L-hS-OfN" firstAttribute="centerX" secondItem="HvW-jo-7hx" secondAttribute="centerX" id="Xd0-bI-B9x"/>
-                                    <constraint firstItem="HvW-jo-7hx" firstAttribute="centerY" secondItem="0I8-fn-aCV" secondAttribute="centerY" id="pBg-1L-HPB"/>
-                                    <constraint firstItem="HvW-jo-7hx" firstAttribute="width" secondItem="0I8-fn-aCV" secondAttribute="width" id="sMO-73-W1h"/>
-                                </constraints>
-                            </view>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="0I8-fn-aCV" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="SzI-uR-Rek"/>
-                            <constraint firstItem="0I8-fn-aCV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="1.5" id="bPb-Rx-FP4"/>
-                            <constraint firstItem="0I8-fn-aCV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.5" id="blQ-cR-jgo"/>
-                            <constraint firstItem="0I8-fn-aCV" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.25" id="skx-n3-sDz"/>
+                            <constraint firstItem="XP5-T8-Jlp" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="0qQ-RC-dMU"/>
+                            <constraint firstItem="XP5-T8-Jlp" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.2" id="O2O-dN-ixI"/>
                         </constraints>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <connections>
                         <outlet property="bottomLabel" destination="DpV-Jw-8Pg" id="70S-IG-J4V"/>
                         <outlet property="centerLabel" destination="f6d-R4-kqr" id="c0t-EH-FIb"/>
-                        <outlet property="loginButton" destination="a5L-hS-OfN" id="agw-5v-rPU"/>
-                        <outlet property="myTextField" destination="HvW-jo-7hx" id="rCJ-z7-oTr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -77,4 +90,7 @@
             <point key="canvasLocation" x="102" y="377"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icon175x175.png" width="175" height="175"/>
+    </resources>
 </document>
