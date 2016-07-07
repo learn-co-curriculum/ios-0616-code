@@ -175,6 +175,27 @@ for (index, item) in shoppingList.enumerate() {
 
 
 
+var days = ["Monday", "Tuesday", "Fun"]
+
+
+if let index = days.indexOf("Fun") {
+    days.removeAtIndex(index)
+}
+
+
+extension Array where Element: Equatable {
+    
+    mutating func removeElement(element: Element) -> Element? {
+        guard let validIndex = self.indexOf(element) else { return nil }
+        return self.removeAtIndex(validIndex)
+    }
+
+}
+
+
+let removedDay = days.removeElement("Tuesday")
+
+
 
 
 
