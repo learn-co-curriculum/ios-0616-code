@@ -60,6 +60,13 @@
     [self.centerLabel.centerXAnchor constraintEqualToAnchor:self.view.centerXAnchor].active=YES;
     [self.centerLabel.centerYAnchor constraintEqualToAnchor:self.view.centerYAnchor].active=YES;
 
+    NSArray *string = @[@"g",@"e",@"e",@"k",@"f",@"o",@"r",@"g",@"e",@"e",@"k"];
+
+    NSString *solutionCharacter = @"";
+    for (NSString *character in string) {
+
+    }
+
 
     // Do any additional setup after loading the view, typically from a nib.
 }
