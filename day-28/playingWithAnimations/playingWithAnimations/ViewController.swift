@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var redBox: UIView!
     var leftConstraint: NSLayoutConstraint?
     var topConstrant: NSLayoutConstraint?
+    var differencePoint: CGPoint?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,9 +30,48 @@ class ViewController: UIViewController {
 
         self.leftConstraint?.active=true
 
+        // [@"blah" stringByAppendingString:@"blah2"];
+//        "blah".stringByAppendingString("blah2")
+        let zoomRecognizer = UIPinchGestureRecognizer.init(target: self, action: #selector(newMethod))
+        let dragRecognizer = UIPanGestureRecognizer.init(target:self , action: #selector(draggingRedBox))
+
+        self.redBox.addGestureRecognizer(dragRecognizer)
+        self.redBox.addGestureRecognizer(zoomRecognizer)
+
+
+
+
+        print(self.redBox)
 
         // Do any additional setup after loading the view, typically from a nib.
     }
+
+    func newMethod(recognizer:UIPinchGestureRecognizer) {
+        print(recognizer.scale)
+        print("velocity \(recognizer.velocity)")
+    }
+
+    func draggingRedBox(recognizer:UIPanGestureRecognizer) {
+        let coordinates = recognizer.translationInView(self.redBox)
+
+        if recognizer.state == .Began {
+            self.differencePoint = coordinates
+        } else {
+            if let differencePoint = self.differencePoint {
+                let diffY = coordinates.y - differencePoint.y
+                let diffX = coordinates.x - differencePoint.x
+
+                self.topConstrant?.constant += diffY
+                self.leftConstraint?.constant += diffX
+                self.differencePoint = coordinates
+
+                print(self.topConstrant?.constant)
+                print(coordinates)
+            }
+        }
+
+    }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
