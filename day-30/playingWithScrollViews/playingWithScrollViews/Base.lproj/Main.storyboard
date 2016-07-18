@@ -1,25 +1,97 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="playingWithScrollViews" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aoQ-ra-k4P">
+                                <rect key="frame" x="0.0" y="20" width="1000" height="150"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Cat-hd-wallpapers.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="sP5-VC-u1u">
+                                        <rect key="frame" x="0.0" y="0.0" width="500" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="400" id="B9c-ko-gEa"/>
+                                            <constraint firstAttribute="height" constant="300" id="F7L-S0-tbW"/>
+                                            <constraint firstAttribute="width" constant="500" id="S5x-J2-Qbb"/>
+                                        </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="B9c-ko-gEa"/>
+                                                <exclude reference="F7L-S0-tbW"/>
+                                                <exclude reference="S5x-J2-Qbb"/>
+                                            </mask>
+                                        </variation>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cat-landscape-4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iCH-nL-w6u">
+                                        <rect key="frame" x="500" y="0.0" width="500" height="150"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="perfectly-timed-funny-cat-pictures-5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="t1V-8E-bXy">
+                                        <rect key="frame" x="1000" y="0.0" width="500" height="150"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="sP5-VC-u1u" firstAttribute="top" secondItem="aoQ-ra-k4P" secondAttribute="top" id="9jo-1V-O83"/>
+                                    <constraint firstAttribute="bottom" secondItem="sP5-VC-u1u" secondAttribute="bottom" id="CCV-Ec-DxO"/>
+                                    <constraint firstAttribute="trailing" secondItem="t1V-8E-bXy" secondAttribute="trailing" id="IAB-z7-YFy"/>
+                                    <constraint firstItem="iCH-nL-w6u" firstAttribute="height" secondItem="sP5-VC-u1u" secondAttribute="height" id="Jvt-O9-fc5"/>
+                                    <constraint firstItem="sP5-VC-u1u" firstAttribute="width" secondItem="aoQ-ra-k4P" secondAttribute="width" id="M4h-Uc-HrM"/>
+                                    <constraint firstItem="sP5-VC-u1u" firstAttribute="centerY" secondItem="aoQ-ra-k4P" secondAttribute="centerY" id="MW8-jj-wKf"/>
+                                    <constraint firstItem="t1V-8E-bXy" firstAttribute="leading" secondItem="iCH-nL-w6u" secondAttribute="trailing" id="XDD-xe-XQc"/>
+                                    <constraint firstItem="t1V-8E-bXy" firstAttribute="width" secondItem="sP5-VC-u1u" secondAttribute="width" id="YlS-Jc-WWL"/>
+                                    <constraint firstAttribute="trailing" secondItem="t1V-8E-bXy" secondAttribute="trailing" id="a6A-Eg-RA1"/>
+                                    <constraint firstItem="sP5-VC-u1u" firstAttribute="width" secondItem="aoQ-ra-k4P" secondAttribute="width" id="eoj-gR-boJ"/>
+                                    <constraint firstItem="iCH-nL-w6u" firstAttribute="width" secondItem="sP5-VC-u1u" secondAttribute="width" id="hWC-ti-gK9"/>
+                                    <constraint firstItem="iCH-nL-w6u" firstAttribute="leading" secondItem="sP5-VC-u1u" secondAttribute="trailing" id="kVV-jI-Zko"/>
+                                    <constraint firstItem="sP5-VC-u1u" firstAttribute="height" secondItem="aoQ-ra-k4P" secondAttribute="height" id="pSw-jt-p8G"/>
+                                    <constraint firstItem="sP5-VC-u1u" firstAttribute="leading" secondItem="aoQ-ra-k4P" secondAttribute="leading" id="rzU-yo-MSd"/>
+                                    <constraint firstItem="sP5-VC-u1u" firstAttribute="height" secondItem="aoQ-ra-k4P" secondAttribute="height" id="xcr-0b-hoY"/>
+                                    <constraint firstItem="t1V-8E-bXy" firstAttribute="height" secondItem="sP5-VC-u1u" secondAttribute="height" id="yfj-HE-lpT"/>
+                                    <constraint firstItem="iCH-nL-w6u" firstAttribute="centerY" secondItem="aoQ-ra-k4P" secondAttribute="centerY" id="yg6-jG-q2I"/>
+                                    <constraint firstItem="t1V-8E-bXy" firstAttribute="centerY" secondItem="aoQ-ra-k4P" secondAttribute="centerY" id="zno-Qc-Tqs"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="M4h-Uc-HrM"/>
+                                        <exclude reference="MW8-jj-wKf"/>
+                                        <exclude reference="xcr-0b-hoY"/>
+                                        <exclude reference="IAB-z7-YFy"/>
+                                    </mask>
+                                </variation>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aoQ-ra-k4P" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="4Aw-OR-Jui"/>
+                            <constraint firstItem="aoQ-ra-k4P" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.25" id="90G-yS-vtg"/>
+                            <constraint firstItem="aoQ-ra-k4P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AEk-pU-pen"/>
+                            <constraint firstItem="aoQ-ra-k4P" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="HZP-i4-8uE"/>
+                        </constraints>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1000" height="600"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="349" y="287"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Cat-hd-wallpapers.jpg" width="1600" height="1200"/>
+        <image name="cat-landscape-4.jpg" width="646" height="485"/>
+        <image name="perfectly-timed-funny-cat-pictures-5.jpg" width="750" height="521"/>
+    </resources>
 </document>

@@ -12,6 +12,9 @@
 		D8BE0B501D3D270200993BFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8BE0B4E1D3D270200993BFC /* Main.storyboard */; };
 		D8BE0B521D3D270200993BFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8BE0B511D3D270200993BFC /* Assets.xcassets */; };
 		D8BE0B551D3D270200993BFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8BE0B531D3D270200993BFC /* LaunchScreen.storyboard */; };
+		D8BE0B5F1D3D2A6B00993BFC /* Cat-hd-wallpapers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8BE0B5C1D3D2A6B00993BFC /* Cat-hd-wallpapers.jpg */; };
+		D8BE0B601D3D2A6B00993BFC /* cat-landscape-4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8BE0B5D1D3D2A6B00993BFC /* cat-landscape-4.jpg */; };
+		D8BE0B611D3D2A6B00993BFC /* perfectly-timed-funny-cat-pictures-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8BE0B5E1D3D2A6B00993BFC /* perfectly-timed-funny-cat-pictures-5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		D8BE0B511D3D270200993BFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8BE0B541D3D270200993BFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8BE0B561D3D270200993BFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8BE0B5C1D3D2A6B00993BFC /* Cat-hd-wallpapers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cat-hd-wallpapers.jpg"; sourceTree = "<group>"; };
+		D8BE0B5D1D3D2A6B00993BFC /* cat-landscape-4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cat-landscape-4.jpg"; sourceTree = "<group>"; };
+		D8BE0B5E1D3D2A6B00993BFC /* perfectly-timed-funny-cat-pictures-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "perfectly-timed-funny-cat-pictures-5.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 				D8BE0B4C1D3D270200993BFC /* ViewController.swift */,
 				D8BE0B4E1D3D270200993BFC /* Main.storyboard */,
 				D8BE0B511D3D270200993BFC /* Assets.xcassets */,
+				D8BE0B5C1D3D2A6B00993BFC /* Cat-hd-wallpapers.jpg */,
+				D8BE0B5D1D3D2A6B00993BFC /* cat-landscape-4.jpg */,
+				D8BE0B5E1D3D2A6B00993BFC /* perfectly-timed-funny-cat-pictures-5.jpg */,
 				D8BE0B531D3D270200993BFC /* LaunchScreen.storyboard */,
 				D8BE0B561D3D270200993BFC /* Info.plist */,
 			);
@@ -123,8 +132,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8BE0B551D3D270200993BFC /* LaunchScreen.storyboard in Resources */,
+				D8BE0B601D3D2A6B00993BFC /* cat-landscape-4.jpg in Resources */,
+				D8BE0B5F1D3D2A6B00993BFC /* Cat-hd-wallpapers.jpg in Resources */,
 				D8BE0B521D3D270200993BFC /* Assets.xcassets in Resources */,
 				D8BE0B501D3D270200993BFC /* Main.storyboard in Resources */,
+				D8BE0B611D3D2A6B00993BFC /* perfectly-timed-funny-cat-pictures-5.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
