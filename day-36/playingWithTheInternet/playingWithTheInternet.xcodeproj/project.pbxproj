@@ -12,6 +12,7 @@
 		D8E65E3F1D47C30F0047A5A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8E65E3D1D47C30F0047A5A7 /* Main.storyboard */; };
 		D8E65E411D47C30F0047A5A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8E65E401D47C30F0047A5A7 /* Assets.xcassets */; };
 		D8E65E441D47C30F0047A5A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8E65E421D47C30F0047A5A7 /* LaunchScreen.storyboard */; };
+		D8E65E4C1D47FF8A0047A5A7 /* GithubAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E65E4B1D47FF8A0047A5A7 /* GithubAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D8E65E401D47C30F0047A5A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8E65E431D47C30F0047A5A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8E65E451D47C30F0047A5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8E65E4B1D47FF8A0047A5A7 /* GithubAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				D8E65E391D47C30F0047A5A7 /* AppDelegate.swift */,
 				D8E65E3B1D47C30F0047A5A7 /* ViewController.swift */,
+				D8E65E4B1D47FF8A0047A5A7 /* GithubAPIClient.swift */,
 				D8E65E3D1D47C30F0047A5A7 /* Main.storyboard */,
 				D8E65E401D47C30F0047A5A7 /* Assets.xcassets */,
 				D8E65E421D47C30F0047A5A7 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				D8E65E3C1D47C30F0047A5A7 /* ViewController.swift in Sources */,
 				D8E65E3A1D47C30F0047A5A7 /* AppDelegate.swift in Sources */,
+				D8E65E4C1D47FF8A0047A5A7 /* GithubAPIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,37 +9,23 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var locationLabel: UILabel!
 
+    @IBOutlet weak var nameLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
-        let session = NSURLSession(configuration: NSURLSessionConfiguration.defaultSessionConfiguration())
-
-        print ("before creating url")
-        if let githubURL = NSURL(string: "https://api.github.com/users/jmburges?client_id=7d1e5bd77778e9d64204&client_secret=b1d7e3036274eb920acdf5bb1b234b79555936d9") {
-
-            print("before creating task")
-            let githubTask = session.dataTaskWithURL(githubURL, completionHandler: { (data, response, error) in
-                print("inside completion handler. Data Received")
-                if let data = data {
-
-                    do {
-                        let responseData = try NSJSONSerialization.JSONObjectWithData(data, options: []) as! NSDictionary
-
-                        print(responseData["company"])
-                    } catch {
-                        print("Fail!")
-                    }
-
-                }
-
-            })
-            print("Before resuming task")
-            githubTask.resume()
-            print("After resuming task")
-
+        print("1 before calling getUserInfo in VC")
+        GithubAPIClient.getUserInfo { (responseData) in
+             print("10 in completionHandler in VC")
+            let location = responseData["location"] as! String
+            let name = responseData["name"] as! String
+            self.locationLabel.text = location
+            self.nameLabel.text = name
         }
+        print("6 after calling getUserInfo in VC")
+        
 
 
 }
