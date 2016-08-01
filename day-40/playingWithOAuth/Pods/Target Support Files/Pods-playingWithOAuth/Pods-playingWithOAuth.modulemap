@@ -1,0 +1,6 @@
+framework module Pods_playingWithOAuth {
+  umbrella header "Pods-playingWithOAuth-umbrella.h"
+
+  export *
+  module * { export * }
+}
